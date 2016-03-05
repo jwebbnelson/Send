@@ -14,6 +14,13 @@
 		83049A0C1C8A911C006BCC2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83049A0A1C8A911C006BCC2F /* LaunchScreen.storyboard */; };
 		83049A171C8A911C006BCC2F /* SendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83049A161C8A911C006BCC2F /* SendTests.swift */; };
 		83049A221C8A911C006BCC2F /* SendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83049A211C8A911C006BCC2F /* SendUITests.swift */; };
+		83049A301C8A91A1006BCC2F /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83049A2F1C8A91A1006BCC2F /* FirebaseController.swift */; };
+		83049A321C8A91C3006BCC2F /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83049A311C8A91C3006BCC2F /* Firebase.framework */; };
+		83049A341C8A91EF006BCC2F /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83049A331C8A91EF006BCC2F /* libicucore.tbd */; };
+		83049A361C8A91F7006BCC2F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83049A351C8A91F7006BCC2F /* libc++.tbd */; };
+		83049A381C8A9201006BCC2F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83049A371C8A9201006BCC2F /* CFNetwork.framework */; };
+		83049A3A1C8A920A006BCC2F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83049A391C8A920A006BCC2F /* Security.framework */; };
+		83049A3C1C8A9217006BCC2F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83049A3B1C8A9217006BCC2F /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		83049A1D1C8A911C006BCC2F /* SendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83049A211C8A911C006BCC2F /* SendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendUITests.swift; sourceTree = "<group>"; };
 		83049A231C8A911C006BCC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83049A2F1C8A91A1006BCC2F /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		83049A311C8A91C3006BCC2F /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		83049A331C8A91EF006BCC2F /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		83049A351C8A91F7006BCC2F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		83049A371C8A9201006BCC2F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		83049A391C8A920A006BCC2F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		83049A3B1C8A9217006BCC2F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83049A3C1C8A9217006BCC2F /* SystemConfiguration.framework in Frameworks */,
+				83049A3A1C8A920A006BCC2F /* Security.framework in Frameworks */,
+				83049A381C8A9201006BCC2F /* CFNetwork.framework in Frameworks */,
+				83049A361C8A91F7006BCC2F /* libc++.tbd in Frameworks */,
+				83049A341C8A91EF006BCC2F /* libicucore.tbd in Frameworks */,
+				83049A321C8A91C3006BCC2F /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,7 @@
 				83049A151C8A911C006BCC2F /* SendTests */,
 				83049A201C8A911C006BCC2F /* SendUITests */,
 				830499FF1C8A911C006BCC2F /* Products */,
+				83049A3D1C8A922A006BCC2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,7 @@
 			children = (
 				83049A011C8A911C006BCC2F /* AppDelegate.swift */,
 				83049A031C8A911C006BCC2F /* ViewController.swift */,
+				83049A2F1C8A91A1006BCC2F /* FirebaseController.swift */,
 				83049A051C8A911C006BCC2F /* Main.storyboard */,
 				83049A081C8A911C006BCC2F /* Assets.xcassets */,
 				83049A0A1C8A911C006BCC2F /* LaunchScreen.storyboard */,
@@ -123,6 +145,19 @@
 				83049A231C8A911C006BCC2F /* Info.plist */,
 			);
 			path = SendUITests;
+			sourceTree = "<group>";
+		};
+		83049A3D1C8A922A006BCC2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83049A3B1C8A9217006BCC2F /* SystemConfiguration.framework */,
+				83049A391C8A920A006BCC2F /* Security.framework */,
+				83049A371C8A9201006BCC2F /* CFNetwork.framework */,
+				83049A351C8A91F7006BCC2F /* libc++.tbd */,
+				83049A331C8A91EF006BCC2F /* libicucore.tbd */,
+				83049A311C8A91C3006BCC2F /* Firebase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83049A301C8A91A1006BCC2F /* FirebaseController.swift in Sources */,
 				83049A041C8A911C006BCC2F /* ViewController.swift in Sources */,
 				83049A021C8A911C006BCC2F /* AppDelegate.swift in Sources */,
 			);
@@ -399,6 +435,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Send/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DevMtn.Send;
@@ -410,6 +450,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Send/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DevMtn.Send;
